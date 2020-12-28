@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>동대문 엽기떡볶이 - 고객센터</title>
+<link rel="stylesheet" href="css/sub4.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/aos.css">
+<script src="https://kit.fontawesome.com/6411820a12.js" crossorigin="anonymous"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/aos.js"></script>
+<script>
+    $(document).ready(function(){
+       $("#header").load("header.html");
+       $("#footer").load("footer.html");
+
+        $(".menu-bar .menu").click(function(){
+            $(".menu ul").slideToggle("on");  
+        });
+
+        $("#wrap #switch").hide();
+        $(".menu ul li").eq(0).addClass("selected");
+        $("#wrap #switch").eq(0).show();
+        $(".menu ul li").click(function(){
+            $("ul li").find('a').removeClass();
+            $(this).find("a").addClass("selected");
+            $("#wrap #switch").hide();
+            var i = $(this).index();
+            $("#wrap #switch").eq(i).show();
+        });
+        
+        
+        $(".join-terms").click(function(){
+            $(".join-terms .arrow").toggleClass("on");
+            $(".join-terms .table-box").slideToggle("on");
+        });
+        
+        $(".fre-box1>ul>li").click(function(){
+            $(".arrow1").toggleClass("on");
+            $(".fre-box1 .fre-box1-2").slideToggle("on");
+        });
+        $(".fre-box2>ul>li").click(function(){
+            $(".arrow2").toggleClass("on");
+            $(".fre-box2 .fre-box2-2").slideToggle("on");
+        });
+        $(".fre-box3>ul>li").click(function(){
+            $(".arrow3").toggleClass("on");
+            $(".fre-box3 .fre-box3-2").slideToggle("on");
+        });
+        $(".fre-box4>ul>li").click(function(){
+            $(".arrow4").toggleClass("on");
+            $(".fre-box4 .fre-box4-2").slideToggle("on");
+        });
+        $(".fre-box5>ul>li").click(function(){
+            $(".arrow5").toggleClass("on");
+            $(".fre-box5 .fre-box5-2").slideToggle("on");
+        });
+        $(".fre-box6>ul>li").click(function(){
+            $(".arrow6").toggleClass("on");
+            $(".fre-box6 .fre-box6-2").slideToggle("on");
+        });
+        $(".fre-box7>ul>li").click(function(){
+            $(".arrow7").toggleClass("on");
+            $(".fre-box7 .fre-box7-2").slideToggle("on");
+        });
+        $(".fre-box8>ul>li").click(function(){
+            $(".arrow8").toggleClass("on");
+            $(".fre-box8 .fre-box8-2").slideToggle("on");
+        });
+        $(".fre-box9>ul>li").click(function(){
+            $(".arrow9").toggleClass("on");
+            $(".fre-box9 .fre-box9-2").slideToggle("on");
+        });
+        $(".fre-box10>ul>li").click(function(){
+            $(".arrow10").toggleClass("on");
+            $(".fre-box10 .fre-box10-2").slideToggle("on");
+        });
+
+
+    });
+</script>
+</head>
+<body>
+<div id="wrap">
+    <div id="header"></div>
+    
+    <div id="menu-key">
+        <div class="menu-key">
+           <div data-aos="fade-down" data-aos-duration="2000">
+            <h1>CUSTOMER CENTER</h1>
+            </div>
+        </div>
+    </div>
+ 
+<!--   aos js     -->
+    <script>
+      AOS.init({
+        
+      });
+    </script> 
+<!--   //aos js     -->        
+    
+<!--      메뉴바     -->
+    <div id="menu-bar">
+        <div class="menu-bar">
+            <div class="home">
+                <a href="index2.html">
+                    <i class="fas fa-home"></i>
+                </a> 
+            </div>
+            <div class="menu">
+                <p>customer center</p><i class="fas fa-sort-down"></i>
+                <ul>
+                <li><a href="#">Q & A</a></li>
+                <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="menu-txt">
+                <p>고객센터 > Q & A</p>
+            </div>
+        </div>
+    </div>
+    
+    <!--      컨텐츠     -->    
+<div id="menu-content">
+    <!--      Q & A     -->
+<div id="switch">
+   
+   
+    <div id="qus">
+        <div class="qus">
+            <h1>Q & A</h1>
+            <div class="qus-box1">
+                <p>엽기떡볶이 기본 회원이신가요?</p>
+                <li>
+                <a href="login.html">로그인 &nbsp;&nbsp; ></a>
+                </li>
+            </div>
+            <div class="qus-box2">
+                <form action="#" method="post">
+                   
+                    <div class="cate">
+                      <li>CATEGORY</li>
+                       <input type="radio"> 칭찬
+                        <input type="radio"> 불만
+                        <input type="radio"> 질문
+                        <input type="radio"> 맴버쉽
+                        <input type="radio"> 기타
+                    </div>
+                    
+                    <div class="title">
+                        <li>TITLE</li>
+                        <input type="text" 
+                        placeholder="제목을 입력해주세요">
+                    </div>
+                    
+                    <div class="con">
+                        <li>CONTENT<br> 
+                    * 문의 내용을 상세히 기재해 주시면 정확한 답변에 도움이 됩니다.</li>
+                    <input type="text"
+                    placeholder="문의 사항을 입력하세요">
+                    </div>
+                    
+                    <div class="guest">
+                        <li>GUEST NAME</li>
+                        <input type="text" 
+                        placeholder="국문 이름을 입력해주세요.">
+                    </div>
+                    
+                    <div class="mobile">
+                        <li>MOBILE</li>
+                        <input type="text"> - 
+                        <input type="text"> - 
+                        <input type="text">
+                    </div>
+                    
+                    <div class="mail">
+                        <li>E-MAIL</li>
+                        <input type="text"> @ 
+                        <select name="mail" id="mail">
+                            <option value="">naver.com</option>
+                            <option value="">daum.net</option>
+                            <option value="">gmail.com</option>
+                            <option value="">hotmail.com</option>
+                            <option value="">nate.com</option>
+                            
+                        </select>
+                    </div>
+                    
+                    <div class="reply">
+                       <li>REPLY BY</li>
+                        <input type="radio"> 이메일
+                        <input type="radio"> 전화
+                        <input type="radio"> SMS
+                    </div>
+                    
+                    <div class="join-terms">
+                        <input type="checkbox">
+                        <li>개인정보 수집 및 이용에 관한 동의</li>
+                        <img src="img/join_down.png"
+                        class="arrow" alt="이미지버튼">
+                        <div class="table-box">
+                        <table border="1">
+                            <tr>
+                                <th>수집 항목</th>
+                                <th>수집 목적</th>
+                                <th>보유 기간</th>
+                            </tr>
+                            <tr>
+                                <td>이름</td>
+                                <td>서비스 이용자 식별</td>
+                                <td rowspan="2" style="font-weight: bold; font-size: 18px;">상담신청 접수 후 3년</td>
+                            </tr>
+                            <tr>
+                                <td>휴대폰번호, 이메일 주소</td>
+                                <td>서비스 이행을 위한 연락 및 안내, 고지사항 전달, 불만처리 등의 의사소통</td>
+                                
+                            </tr>
+                        </table>
+                        <p>*위의 개인정보 수집 및 이용에 대한 동의를 거부할 권리가 있으나 동의를 거부하실 경우 서비스 이용이 불가합니다.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="save-btn">
+                        <li><a href="#">저장</a>
+                        </li>
+                    </div>
+                    
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--      FAQ     -->
+    <div id="switch">
+       
+        <div id="fre">
+            <div class="fre">
+                <h1>FAQ</h1>
+                <div class="fre-box fre-box1">
+                   <ul>
+                       <li>기타</li>
+                       <li>회원 대상 프로모션 상품 및 특가를
+                    안내 받고 싶습니다</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow1">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box1-2">
+                        <p>
+                            멤버십을 위한 특가 상품이나 할인 혜택,
+                            이벤트 등은 마케팅 수신동의 해주신 
+                            회원에 한하여 문자나 이메일로 발송됩니다.
+                            <br> (각각 수신동의 필요)<br>
+                            혹시 수신 동의가 안되어 있다면
+                             '홈페이지 > 마이페이지 >
+                              회원정보수정 > 정보수신동의'에
+                               체크해주시면<br>
+                                다양한 혜택을 받아보실
+                            수 있습니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box2">
+                   <ul>
+                       <li>기타</li>
+                       <li>기타 관련 문의는 어떻게 해야 하나요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow2">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box2-2">
+                        <p>
+                            관련 문의는 엽기떡볶이 홈페이지
+                            '고객센터' 에서 문의 주시기 바랍니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box3">
+                   <ul>
+                       <li>맴버십</li>
+                       <li>맴버십 전환 후 다시 기존 맴버십으로 
+                       돌아갈 수 있나요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow3">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box3-2">
+                        <p>
+                            맴버십 전환을 완료하신 경우, 이전
+                            맵버십으로의 재전환은 불가합니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box4">
+                   <ul>
+                       <li>회원</li>
+                       <li>맴버십 전환 시 맵버십 유효기간은 어떻게
+                       되나요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow4">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box4-2">
+                        <p>
+                            전환된 맵버십의 유효기간은 기존 맴버십의
+                            유효기간과 변동없이 동일합니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box5">
+                   <ul>
+                       <li>포인트</li>
+                       <li>맴버십 포인트는 얼마부터 사용
+                       가능한가요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow5">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box5-2">
+                        <p>
+                            포인트는 최소 10,000 부터 가능합니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box6">
+                   <ul>
+                       <li>포인트</li>
+                       <li>맴버십 포인트는 어디에서 사용할 수 있나요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow6">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box6-2">
+                        <p>
+                            포인트 사용은 홈페이지에서 메뉴>엽기시리즈
+                            에서 표기되어있는 모든 메뉴에 대해 사용
+                            가능합니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box7">
+                   <ul>
+                       <li>포인트</li>
+                       <li>맴버십 포인트 유효기간이 있나요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow7">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box7-2">
+                        <p>
+                            포인트는 최초 적립된 시점으로부터 24개월간(회원의 휴면 계정 처리 기간도 포함) 이용 가능하며,<br> 24개월이 지난 시점에 월 단위로 자동 소멸됩니다.  
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box8">
+                   <ul>
+                       <li>카드</li>
+                       <li>카드를 분실했는데 재발급 가능한가요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow8">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box8-2">
+                        <p>
+                            카드분실 시 고객센터 번호(1661-8514)로 문의주시면 재발급 가능하며,
+                            <br>2만원의 재발급 비용이 발생합니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box9">
+                   <ul>
+                       <li>맴버십 계정</li>
+                       <li>맴버십 가입은 어떻게 하나요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow9">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box9-2">
+                        <p>
+                            홈페이지 회원가입을 통하여 리워드(무료 멤버십) 가입이 가능하며,<br> VIP(유료 멤버십)는 멤버십 페이지(credit cart 페이지)에서 구매하실 수 있습니다. 
+                        </p>
+                    </div>
+                </div>
+                <div class="fre-box fre-box10">
+                   <ul>
+                       <li>메뉴</li>
+                       <li>엽기시리즈에 맵기는 선택가능한가요?</li>
+                       <li>
+                           <img src="img/join_down.png"
+                            alt="화살표버튼" class="arrow10">
+                       </li>
+                   </ul>
+                    <div class="fre-box-con fre-box10-2">
+                        <p>
+                            메뉴>엽기시리즈에 있는 모든 메뉴는 맵기 
+                            조절이 가능하며 메뉴 페이지에 표기되어있는
+                            <br>3단계 조절 표기를 참조하셔서 
+                            주문하시기 바랍니다. 
+                        </p>
+                    </div>
+                </div>
+
+           
+           
+            </div>
+        </div>
+        
+    </div>
+     <!--     // FAQ aka switch    -->   
+    
+    
+    
+</div>
+    
+    
+<div id="footer"></div>
+
+
+
+</div>
+</body>
+</html>

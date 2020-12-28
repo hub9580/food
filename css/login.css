@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*     메인컬러 #a70405    */
+
+#login {margin-top: 100px; height: 800px; }
+#login .login {max-width: 1200px; text-align: center;}
+#login .login h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+#login .login p {
+    font-size: 16px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+#login .login .id {width: 100%; margin-bottom: 20px;}
+#login .login .id li {
+    width: 50%; text-align: left;
+    font-size: 14px; margin-bottom: 10px;
+}
+#login .login .id input[type="text"] {
+    width: 50%; height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+#login .login .pwd {width: 100%; margin-bottom:20px;}
+#login .login .pwd li {
+    width: 50%; text-align: left;
+    font-size: 14px; margin-bottom: 10px;
+}
+#login .login .pwd input[type="password"] {
+    width: 50%; height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+    font-size: 16px;
+}
+#login .login .check {
+    width: 50%;
+    margin-bottom:20px; text-align: left;
+}
+#login .login .check label {
+    font-size: 18px; 
+    cursor: pointer;
+}
+#login .login .check label input[type="checkbox"] {
+    width: 40px; height: 20px; 
+    border-radius: 10px;
+}
+
+#login .btn { margin-bottom: 20px;}
+#login .btn li {
+    background: #666; width: 50%;
+    height: 80px; line-height: 80px; 
+    text-align: center;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+#login .btn li:hover {
+    background: #fff;
+    border: 1px solid #000;
+}
+#login .btn li:hover a {
+    color: #000;
+}
+#login .btn li a {font-size: 20px; color: #fff;}
+
+#login .join {width: 100%;}
+#login .join li {}
+#login .join li a {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

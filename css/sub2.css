@@ -1,0 +1,280 @@
+@charset "utf-8";
+/*     메인컬러 #a70405    */
+
+#wrap {}
+#menu-key {
+    width: 100%; height: 700px;
+    background: url(../img/menu1-back.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+#menu-key .menu-key {max-width: 1200px;}
+.menu-key img {margin-top: 50px;}
+
+
+#menu-bar {
+    border-bottom: 2px solid #eee; 
+    height: 50px; line-height: 50px;
+}
+#menu-bar .menu-bar {max-width: 1200px;} 
+#menu-bar .menu-bar div {color: #777;}
+.menu-bar .home {
+    float: left; width: 70px;
+    text-align: center; font-size: 26px;
+    border-left: 2px solid #eee;   
+}
+.menu-bar .home i {color: #777; }
+
+.menu-bar .menu {
+    float: left; width: 250px;
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee; 
+    cursor: pointer;
+}
+
+.menu-bar .menu p {
+    padding-left: 30px; float: left;
+    font-size: 24px; font-weight: bold;
+}
+.menu-bar .menu i {
+    font-size: 28px; padding-left: 100px;
+}
+.menu-bar .menu ul {
+    display: none; 
+    border-bottom: 2px solid #eee;
+    height: 200px; padding-left: 30px;
+   
+}
+.menu-bar .menu ul.on {display: block;}
+.menu-bar .menu li {
+    height: 50px; line-height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+.menu-bar .menu:hover {
+    transition: all 0.5s;
+}
+.menu-bar .menu li:after {
+    position: absolute;
+    content: ''; 
+    border-bottom: 2px solid #a70405;
+    width: 0%;
+    left: 0%;
+    display: block;
+    transition-duration: 0.5s;
+    margin-top: -10px;
+}
+.menu-bar .menu li:hover:after {width: 90%;}
+.menu-bar .menu li a {}
+.menu-bar .menu-txt {
+    float: right; 
+    line-height: 70px;
+}
+.menu-bar .menu-txt p {font-size: 12px;}
+
+
+
+#menu-content {
+    max-width: 1200px; height: 2000px;
+    margin-top: 200px;
+}
+#menu-content p {
+    width: 100%; text-align: right;
+    font-size: 12px;
+}
+
+/*   엽떡시리즈   */
+#menu-content1 {
+    height: 500px;
+    border-top: 2px solid #555;
+}
+#menu-content1 .content1-1 {
+    width: 20%; float: left; color: #555;
+}
+#menu-content1 .con {
+    width: 30%; height: 500px; float: left;
+    margin-left: 10%; padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+#menu-content1 .con img {width: 80%; margin-left: 10%;}
+#menu-content1 .con h2 {
+    font-size: 20px; 
+    margin-top: 50px; text-align: center;
+}
+#menu-content1 .con p {
+    text-align: center; margin-top: 10px;
+}
+
+#menu-content1 .con:hover .box {
+    transform: translateY(0%); transition: all 0.8s;
+}
+#menu-content1 .con .box {
+    position: absolute; left: 0; top: 0;
+    width: 100%; height: 500px; 
+    _background: #333; 
+    background: rgba(51,51,51,0.6);
+    transform: translateY(-100%);
+    transition: all 0.8s;
+}
+#menu-content .con .box h2 {
+    margin-top: 100px;
+    font-size: 30px; color: #eee; 
+}
+#menu-content .con .box p {color: #eee;}
+#menu-content .con .box p:nth-child(2) {
+    margin-top: 50px; font-size: 14px;
+}
+#menu-content .con .box p:nth-child(3) {
+    margin-top: 20px; font-size: 20px;
+}
+#menu-content .con .box img:nth-child(4) {
+    margin-left: 37%;
+}
+#menu-content .con .box img {
+    width: 6%; margin: 5% 0 0 2%;
+}
+#menu-content .con .box p:nth-child(7) {
+    margin-top: 40px; font-size: 12px;
+}
+
+
+
+
+
+
+/*     닭발      */
+#menu-content2 {
+    height: 500px;
+    border-top: 2px solid #555;
+}
+#menu-content2 .content2-1 {
+    width: 20%; float: left; color: #555;
+}
+#menu-content2 .con {
+    width: 30%; height: 500px; float: left;
+    margin-left: 10%; padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+#menu-content2 .con img {width: 80%; margin-left: 10%;}
+#menu-content2 .con h2 {
+    font-size: 20px;
+    margin-top: 50px; text-align: center;
+}
+#menu-content2 .con p {
+    text-align: center; margin-top: 10px;
+}
+
+#menu-content2 .con:hover .box {
+    transform: translateY(0%); transition: all 0.8s;
+}
+#menu-content2 .con .box {
+    position: absolute; left: 0; top: 0;
+    width: 100%; height: 500px; 
+    _background: #333;
+    background: rgba(51,51,51,0.6);
+    transform: translateY(-100%);
+    transition: all 0.8s;
+}
+#menu-content2 .con .box h2 {
+    margin-top: 100px;
+    font-size: 30px; color: #eee; 
+}
+#menu-content2 .con .box p {color: #eee;}
+#menu-content2 .con .box p:nth-child(2) {
+    margin-top: 50px; font-size: 14px;
+}
+#menu-content2 .con .box p:nth-child(3) {
+    margin-top: 20px; font-size: 20px;
+}
+#menu-content2 .con .box img:nth-child(4) {
+    margin-left: 37%;
+}
+#menu-content2 .con .box img {
+    width: 6%; margin: 5% 0 0 2%;
+}
+#menu-content2 .con .box p:nth-child(7) {
+    margin-top: 40px; font-size: 12px;
+}
+
+
+
+/*    기타 메뉴    */
+#menu-content3 {
+    height: 500px;
+    border-top: 2px solid #555;
+    border-bottom: 2px solid #555;
+}
+#menu-content3 .content3-1 {
+    width: 20%; float: left; color: #555;
+}
+#menu-content3 .con {
+    width: 30%; height: 500px; float: left;
+    margin-left: 10%; padding-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+#menu-content3 .con img {width: 80%; margin-left: 10%;}
+#menu-content3 .con h2 {
+    font-size: 20px;
+    margin-top: 50px; text-align: center;
+}
+#menu-content3 .con p {
+    text-align: center; margin-top: 10px;
+}
+#menu-content3 .con:hover .box {
+    transition: all 0.8s;
+    transform: translateY(0%);
+}
+#menu-content3 .con .box {
+    position: absolute; left: 0; top: 0;
+    width: 100%; height: 500px; 
+    _background: #333;  
+    background: rgba(51,51,51,0.6);
+    transform: translateY(-100%);
+    transition: all 0.8s;
+}
+#menu-content3 .con .box h2 {
+    margin-top: 100px;
+    font-size: 30px; color: #eee; 
+}
+#menu-content3 .con .box p {color: #eee;}
+#menu-content3 .con .box p:nth-child(2) {
+    margin-top: 50px; font-size: 14px;
+}
+#menu-content3 .con .box p:nth-child(3) {
+    margin-top: 20px; font-size: 20px;
+}
+#menu-content3 .con .box img:nth-child(4) {
+    margin-left: 37%;
+}
+#menu-content3 .con .box img {
+    width: 6%; margin: 5% 0 0 2%;
+}
+#menu-content3 .con .box p:nth-child(7) {
+    margin-top: 40px; font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,292 @@
+@charset "utf-8";
+/*     메인컬러 #a70405    */
+
+#wrap {}
+#menu-key {
+    width: 100%; height: 500px;
+    background: url(../img/customer-back.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#menu-key .menu-key {
+    max-width: 1200px; text-align: center;
+    line-height: 500px;
+}
+#menu-key .menu-key h1 {font-size: 46px; color: #fff;}
+
+#menu-bar {
+    border-bottom: 2px solid #eee; 
+    height: 50px; line-height: 50px;
+}
+#menu-bar .menu-bar {max-width: 1200px;} 
+#menu-bar .menu-bar div {color: #777;}
+.menu-bar .home {
+    float: left; width: 70px;
+    text-align: center; font-size: 26px;
+    border-left: 2px solid #eee;   
+}
+.menu-bar .home i {color: #777; }
+
+.menu-bar .menu {
+    float: left; width: 350px;
+    border-left: 2px solid #eee;
+    border-right: 2px solid #eee; 
+    cursor: pointer;
+}
+
+.menu-bar .menu p {
+    padding-left: 30px; float: left;
+    font-size: 24px; font-weight: bold;
+}
+.menu-bar .menu i {
+    font-size: 28px; padding-left: 100px;
+}
+.menu-bar .menu ul {
+    display: none; 
+    border-bottom: 2px solid #eee;
+    height: 120px; padding-left: 30px;
+   
+}
+.menu-bar .menu ul.on {display: block;}
+.menu-bar .menu li {
+    height: 50px; line-height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+.menu-bar .menu:hover {
+    transition: all 0.5s;
+}
+.menu-bar .menu li:after {
+    position: absolute;
+    content: ''; 
+    border-bottom: 2px solid #a70405;
+    width: 0%;
+    left: 0%;
+    display: block;
+    transition-duration: 0.5s;
+    margin-top: -10px;
+}
+.menu-bar .menu li:hover:after {width: 90%;}
+.menu-bar .menu li a {}
+.menu-bar .menu-txt {
+    float: right; 
+    line-height: 70px;
+}
+.menu-bar .menu-txt p {font-size: 12px;}
+
+
+
+#switch {margin-bottom: 200px;}
+#qus {_height: 2000px; margin-top: 150px;}
+#qus .qus {max-width: 1200px;}
+#qus .qus h1 {
+    border-bottom: 2px solid #666;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.qus .qus-box1 {
+    width: 100%; height: 100px;
+    background: #eee; 
+}
+.qus .qus-box1 p {
+    float: left; font-size: 20px;
+    line-height: 100px;
+    margin-left: 25px;
+}
+.qus .qus-box1 li {
+    float: right; width: 150px; height: 50px;
+    background: #666; border: 1px solid #000;
+    line-height: 50px; margin: 25px;
+    text-align: center; transition: all 1s;
+}
+.qus .qus-box1 li:hover {
+    background: #fff; transition: all 1s;
+}
+.qus .qus-box1 li:hover a {color: #000;}
+.qus .qus-box1 li a {
+    color: #fff; font-size: 14px;
+    padding: 20px 35px;
+}
+
+
+
+.qus .qus-box2 {}
+.qus-box2 li {font-size: 14px;}
+
+.qus-box2 .cate {font-size: 16px; margin-top: 50px;}
+.qus-box2 .cate input[type="radio"] {
+    width: 30px; height: 15px; 
+}
+.qus-box2 .title {margin-top: 50px;}
+.qus-box2 .title input[type="text"] {
+    width: 50%; height: 50px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-indent: 10px; font-size: 14px;
+}
+.qus-box2 .con {margin-top: 50px;}
+.qus-box2 .con input[type="text"] {
+    width: 50%; height: 50px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-indent: 10px; font-size: 14px;
+}
+
+.qus-box2 .guest {margin-top: 50px;}
+.qus-box2 .guest input[type="text"] {
+    width: 50%; height: 50px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-indent: 10px; font-size: 14px;
+}
+
+.qus-box2 .mobile {margin-top: 50px;}
+.qus-box2 .mobile input[type="text"] {
+    width: 16%; height: 50px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-indent: 10px; font-size: 14px;
+}
+
+.qus-box2 .mail {margin-top: 50px;}
+.qus-box2 .mail input[type="text"] {
+    width: 20%; height: 50px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-indent: 10px; font-size: 14px;
+}
+.qus-box2 .mail select {
+    width: 20%; height: 50px; 
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    font-size: 14px; text-indent: 10px;
+}
+.qus-box2 .reply {font-size: 16px; margin-top: 50px;}
+.qus-box2 .reply input[type="radio"] {
+    width: 30px; height: 15px; 
+}
+.qus-box2 .join-terms {
+    margin-top: 50px; 
+    border-top: 1px solid #000; 
+}
+.qus-box2 .join-terms input[type="checkbox"] {
+    float: left; height: 20px; width: 5%;
+    margin-top: 25px;
+}
+.qus-box2 .join-terms li {
+    float: left; line-height: 50px;
+    font-size: 18px; width: 92%;
+    margin: 10px 0 10px 0;
+}
+.qus-box2 .join-terms .arrow {
+    float: right; width: 3%; 
+    _padding: 10px 10px 0 0;
+    font-size: 16px; cursor: pointer;
+    transition: all 0.5s;
+}
+.on{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+.qus-box2 .join-terms .table-box {
+    display: none; height: 250px;
+    border-bottom: 1px solid #000;
+}
+.qus-box2 .join-terms table {
+    _float: left; text-align: center;
+    width: 100%; margin-bottom: 10px
+}
+.qus-box2 .join-terms table th {
+    font-size: 20px; height: 50px;
+}
+.qus-box2 .join-terms table tr {
+    font-size: 14px; height: 40px;
+}
+
+.qus-box2 .join-terms p {
+    float: left;
+    font-size: 12px;
+}
+
+.qus-box2 .save-btn {
+    margin-top: 100px; 
+    width: 200px; height: 60px; line-height: 60px;
+     
+}
+.qus-box2 .save-btn li {
+    text-align: center;
+    cursor: pointer;
+    background: #666;
+    border: 1px solid #000;
+    transition: all 1s;
+}
+.qus-box2 .save-btn li:hover { 
+    background: #fff;
+    transition: all 1s;
+}
+.qus-box2 .save-btn li:hover a {color: #000;}
+.qus-box2 .save-btn li a {font-size: 20px; color: #fff;}
+
+
+
+
+#fre {_height: 2000px; margin: 150px 0;}
+#fre .fre {max-width: 1200px;}
+#fre .fre h1 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+.fre .fre-box {}
+.fre .fre-box ul {
+    height: 70px; padding-top: 25px;
+    border-bottom: 1px solid #eee;
+    transition: all 1s;
+    cursor: pointer;
+}
+.fre .fre-box ul:hover {background: #eee;}
+.fre .fre-box ul li {float: left;}
+.fre .fre-box ul li:nth-child(1) {
+    width: 20%; text-align: center;
+}
+.fre .fre-box ul li:nth-child(2) {
+    width: 60%;
+}
+.fre .fre-box ul li:nth-child(3) {
+    width: 20%; text-align: right; 
+    padding: 0px 10px 0px 0;
+    cursor: pointer;
+    
+}
+.fre .fre-box ul li:nth-child(3) img {
+    transition: all 0.5s;
+}
+.fre .fre-box .fre-box-con {
+    display: none;
+    width: 100%; height: 150px;
+    padding:30px 0 0 20%; 
+    background: #eee;
+}
+.fre .fre-box .fre-box-con .on {display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

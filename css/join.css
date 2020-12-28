@@ -1,0 +1,203 @@
+@charset "utf-8";
+/*     메인컬러 #a70405    */
+
+#join {margin-top: 100px; height: 1500px;}
+#join .join {max-width: 1200px;}
+.join h1 {
+    font-size: 46px;
+    text-align: center; margin-bottom: 50px;
+}
+.join h2 {text-align: center;}
+.join>li {
+    width: 50%;
+    text-align: right; margin-bottom: 50px; 
+    font-size: 14px;
+}
+.join>li p {color: red; display: inline-block;}
+
+
+.join .id {width: 50%; margin-bottom: 20px;}
+.join .id li {
+    font-size: 14px; margin-bottom: 10px;
+    font-size: 12px; text-align: left;
+}
+.join .id li p {color: red; display: inline-block;}
+.join .id input[type="text"] {
+    width: 100%;  height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+
+.join .pwd {width: 50%; margin-bottom: 20px;}
+.join .pwd li {
+    font-size: 14px; margin-bottom: 10px;
+    font-size: 12px; text-align: left;
+}
+.join .pwd li p {color: red; display: inline-block;}
+.join .pwd input[type="password"] {
+    width: 100%;  height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+
+.join .pwd-check {width: 50%; margin-bottom: 20px;}
+.join .pwd-check li {
+    font-size: 14px; margin-bottom: 10px;
+    font-size: 12px; text-align: left;
+}
+.join .pwd-check li p {color: red; display: inline-block;}
+.join .pwd-check input[type="password"] {
+    width: 100%;  height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+
+.join .name {width: 50%; margin-bottom: 20px;}
+.join .name li {
+    font-size: 14px; margin-bottom: 10px;
+    font-size: 12px; text-align: left;
+}
+.join .name li p {color: red; display: inline-block;}
+.join .name input[type="text"] {
+    width: 100%;  height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+
+.join .birth {width: 50%; margin-bottom: 20px;}
+.join .birth li {
+    font-size: 14px; margin-bottom: 10px;
+    font-size: 12px; text-align: left;
+}
+.join .birth li p {color: red; display: inline-block;}
+.join .birth select {
+    width: 32%; height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+.join .birth select:nth-child(3) {margin-left: 1%;}
+.join .birth select:nth-child(4) {margin-left: 1%;}
+
+.join .mobile {width: 50%; margin-bottom: 20px;}
+.join .mobile li {
+    font-size: 14px; margin-bottom: 10px;
+    font-size: 12px; text-align: left;
+}
+.join .mobile li p {color: red; display: inline-block;}
+.join .mobile input[type="text"] {
+    width: 31%;  height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+
+.join .mail {width: 50%; margin-bottom: 20px;}
+.join .mail li {
+    font-size: 14px; margin-bottom: 10px;
+    font-size: 12px; text-align: left;
+}
+.join .mail input[type="text"] {
+    width: 50%;  height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+.join .mail select {
+    width: 45%; height: 60px;
+    background: #eee; border: 0;
+    text-indent: 10px;
+    font-size: 16px;
+}
+
+.join .join-terms {
+    width: 50%;
+    margin-top: 50px; 
+    margin-bottom: 100px;
+    border-top: 1px solid #000; 
+}
+.join .join-terms input[type="checkbox"] {
+    float: left; height: 20px; width: 5%;
+    margin-top: 25px;
+}
+.join .join-terms li {
+    float: left; line-height: 50px;
+    font-size: 16px; width: 87%;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+.join .join-terms .arrow {
+    float: right; width: 8%; 
+    padding: 10px 0px 0 0;
+    font-size: 16px; cursor: pointer;
+    transition: all 0.5s;
+}
+.on{
+    transform: rotate(180deg);
+}
+.join .join-terms .table-box {
+    display: none; height: 250px;
+    border-bottom: 1px solid #000;
+}
+.join .join-terms table {
+    _float: left; text-align: center;
+    width: 100%; margin-bottom: 10px
+}
+.join .join-terms table th {
+    font-size: 18px; height: 50px;
+}
+.join .join-terms table tr {
+    font-size: 12px; height: 40px;
+}
+
+.join .join-terms p {
+    float: left;
+    font-size: 10px;
+}
+
+.join .btn {width: 50%; }
+.join .btn li {
+    float: left;
+    width: 45%; background: #666;
+    height: 80px; line-height: 80px; 
+    text-align: center;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.join .btn li:nth-child(2) {margin-left: 10%;}
+.join .btn li:hover {
+    background: #fff; border: 1px solid #000;
+}
+.join .btn li:hover a {
+    color: #000;
+}
+.join .btn li a {font-size: 20px; color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
