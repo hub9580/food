@@ -38,12 +38,13 @@
         
         $(".header-m .nav-open").click(function(){
             $("#header .nav-m").stop().animate({left:"20%"}, 500);
-            
+            $(".header-m .nav-open").css("display", "none");
             $(".header-m").css("opacity","0.5");
             $("#keyimage").css("opacity","0.5");
         });
         $(".nav-m .login-m .nav-close").click(function(){
             $(".nav-m").stop().animate({left:"100%"}, 500);
+            $(".header-m .nav-open").css("display", "block");
             $(".header-m").css("opacity","1");
             $("#keyimage").css("opacity","1");
         });
