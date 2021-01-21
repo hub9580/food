@@ -303,6 +303,8 @@
 #footer .footer {max-width: 1200px;}
 .footer .footer-top {text-align: center; padding-top: 20px;}
 .footer .footer-top a {color: #eee; padding: 0px 50px;}
+.footer .footer-top a:hover {color: #a70405;}
+
 .footer .footer-mid {}
 .footer .footer-mid img {width: 150px; float: left;}
 .footer .footer-mid p {
